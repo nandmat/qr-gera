@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 100, 17);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+
+    background-color: black;
+    color: #fff;
+}
+
+
+h1 {
+    padding-bottom: 45px;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 45px;
+}
+
+header > p {
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+section {
+
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    margin-top: 55px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 20rem;
+
+    border-radius: 15px;
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+textarea {
+    margin-top: 45px;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+#qrcodeImage {
+    padding-bottom: 10rem;
+}
